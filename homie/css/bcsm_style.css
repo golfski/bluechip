@@ -1,0 +1,46 @@
+h3{
+    color: #003366!important;
+}
+
+.icon-socialmedia{
+    padding:2em;
+    xborder:1px solid red;
+}
+
+.icon-socialmedia a:link, .icon-socialmedia a:visited{
+    color:#88c0e5;
+    text-decoration: none;
+}
+
+.icon-socialmedia a:hover{
+    color:#003366;
+    text-decoration: none;
+}
+
+.logo_text, .logo_text a, .logo_text:visited{
+    color: #003366!important;
+}
+
+.navborder-bottom{
+    border-bottom:1px solid #ccc;
+}
+
+.red{
+    border:1px solid red;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+.footer{
+    background-color: #f8f9fa!important;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.carousel-caption{
+    bottom:0px;
+    xborder:1px solid red;
+}
