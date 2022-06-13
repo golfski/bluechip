@@ -2,23 +2,12 @@ h3{
     color: #003366!important;
 }
 
-.icon-socialmedia{
-    padding:2em;
-    xborder:1px solid red;
-}
-
-.icon-socialmedia a:link, .icon-socialmedia a:visited{
-    color:#88c0e5;
-    text-decoration: none;
-}
-
-.icon-socialmedia a:hover{
-    color:#003366;
-    text-decoration: none;
-}
-
 .logo_text, .logo_text a, .logo_text:visited{
     color: #003366!important;
+}
+
+.logo_subtext a, .logo_subtext a, .logo_subtext:visited{
+    color: #88c0e5;
 }
 
 .navborder-bottom{
@@ -32,10 +21,58 @@ h3{
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
-  }
+}
+
+.team_name{
+    color:#003366; 
+    text-align:left; 
+    padding:4px 0 30px 0; 
+    font-size:1.2em; 
+    line-height: 1em;
+}
+
+.team_role{
+    color:#88c0e5; 
+    font-size:0.75em;
+}
+
+.contact{
+    background-color:#003366;
+    color:#ccc;
+}
+
+.contact_sitenav, .contact_sitenav a:link, .contact_sitenav a:visited{
+    color: #ccc;
+}
+
+.contact_sitenav a:hover{
+    text-decoration: none;
+    color: #88c0e5;
+}
+
+.icon-socialmedia{
+    text-align: left;
+    padding: 5% 5% 5% 0; /* 0 15% 0 15%; */ 
+    xborder:1px solid red;
+}
+
+.icon-socialmedia-item{
+    padding:15% 15% 15% 0;
+    text-align: left;
+}
+
+.icon-socialmedia-item a:link, .icon-socialmedia-item a:visited{
+    color:#88c0e5;
+    text-decoration: none;
+}
+
+.icon-socialmedia-item a:hover{
+    color:#ccc;
+    text-decoration: none;
+}
 
 .footer{
-    background-color: #f8f9fa!important;
+    background-color: #f8f9fa;
     text-align: center;
     font-size: 0.75em;
 }
